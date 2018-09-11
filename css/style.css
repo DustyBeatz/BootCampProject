@@ -156,7 +156,6 @@ p {
 /*-----------------------------------------------------------------------------------*/
 
 nav {
-  position: fixed;
   background: black;
   z-index: 1000;
   width: 100%;
@@ -172,6 +171,10 @@ nav {
   padding-top: 10px;
 }
 
+.nav-menu ul {
+  margin: 0 auto;
+}
+
 nav ul li {
   float: left;
   margin-right: 15px;
@@ -183,7 +186,7 @@ nav ul li {
 nav ul li a {
   padding: 2px 0 0 0;
   position: relative;
-  display: block;
+  display: inline;
   font-size: 14px;
   color: #999999;
   font-family: 'Poppins', helvetica;
@@ -250,23 +253,24 @@ nav ul li a {
 
 #music1 {
   width: 100%;
-  height: auto;
   background: #f7f7f7;
-  padding-top: 190px;
   clear:both;
 }
 
-#music1 .div-img-bg {
-  padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+.music-img ul {
+	list-style:none;
 }
 
-#music1 .div-img-bg .music-img img {
-  width: 100%;
-  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
-  margin-top: -60px;
-  margin-left: 40px;
-  object-fit: cover;
+.music-img ul li 
+{
+	display:inline;
+}
+
+.music-img ul li a
+{
+	display: inline;
+	float: left;
+	width: 50%;
 }
 
 #music1 .music-descr .p-heading {
@@ -341,14 +345,6 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
 
 .journal-block .journal-info .journal-txt p {
   margin: 0;
