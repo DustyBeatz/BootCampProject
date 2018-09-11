@@ -290,102 +290,6 @@ nav ul li a {
   backface-visibility: hidden;
 }
 
-#music2 {
-  width: 100%;
-  height: auto;
-  background: #f7f7f7;
-  padding-top: 190px;
-  clear:both;
-}
-
-#music2 .div-img-bg {
-  padding-bottom: 30px;
-  border: 20px solid #b8a07e;
-}
-
-#music2 .div-img-bg .music-img img {
-  width: 100%;
-  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
-  margin-top: -60px;
-  margin-left: 40px;
-  object-fit: cover;
-}
-
-#music2 .music-descr .p-heading {
-  font-size: 28px;
-  text-align: left;
-}
-
-#music2 .music-descr .separator {
-  max-width: 80%;
-  margin-bottom: 0;
-  text-align: left;
-}
-
-#music3 {
-  width: 100%;
-  height: auto;
-  background: #f7f7f7;
-  padding-top: 190px;
-  clear:both;
-}
-
-#music3 .div-img-bg {
-  padding-bottom: 30px;
-  border: 20px solid #b8a07e;
-}
-
-#music3 .div-img-bg .music-img img {
-  width: 100%;
-  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
-  margin-top: -60px;
-  margin-left: 40px;
-  object-fit: cover;
-}
-
-#music3 .music-descr .p-heading {
-  font-size: 28px;
-  text-align: left;
-}
-
-#music3 .music-descr .separator {
-  max-width: 80%;
-  margin-bottom: 0;
-  text-align: left;
-}
-
-#music4 {
-  width: 100%;
-  height: auto;
-  background: #f7f7f7;
-  padding-top: 190px;
-  clear:both;
-}
-
-#music4 .div-img-bg {
-  padding-bottom: 30px;
-  border: 20px solid #b8a07e;
-}
-
-#music4 .div-img-bg .music-img img {
-  width: 100%;
-  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
-  margin-top: -60px;
-  margin-left: 40px;
-  object-fit: cover;
-}
-
-#music4 .music-descr .p-heading {
-  font-size: 28px;
-  text-align: left;
-}
-
-#music4 .music-descr .separator {
-  max-width: 80%;
-  margin-bottom: 0;
-  text-align: left;
-}
-
 
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
@@ -499,12 +403,11 @@ container_img {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: 15px;
+  right: 0px;
   height: 100%;
   width: 100%;
   background-color: black;
-
 }
 
 .container_img:hover .image {
@@ -590,9 +493,16 @@ container_img {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #f7f7f7;
+  background: black;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+#footerlogo
+{
+	width: 10%;
+	margin: 0 auto;
+	padding-bottom: 10px;
 }
 
 #footer .socials-media {
