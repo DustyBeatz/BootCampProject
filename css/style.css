@@ -1,11 +1,7 @@
 body {
   background: #ffffff;
   color: #898989;
-<<<<<<< HEAD
-  font-family: 'Poppins', helvetica;
-=======
   font-family: 'Avenir Next', helvetica;
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -81,7 +77,7 @@ p {
 ::selection {
   background: #b8a07e;
   color: #fff;
-   
+
 }
 
 .btn {
@@ -104,12 +100,9 @@ p {
   padding: 30px 20px;
 }
 
-<<<<<<< HEAD
 .section-title {
   margin-bottom: 70px;
 }
-=======
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 
 .section-title h2 {
   font-size: 25px;
@@ -138,15 +131,11 @@ p {
 }
 
 .paddsection {
-<<<<<<< HEAD
   padding-top: 90px;
   padding-bottom: 90px;
 }
 
 .paddsections {
-  padding-top: 90px;
-  padding-bottom: 90px !important;
-=======
   padding-top: 35px;
   padding-bottom: 35px;
 }
@@ -154,7 +143,6 @@ p {
 .paddsections {
   padding-top: 30px;
   padding-bottom: 30px !important;
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 }
 
 .hvr-shutter-in-horizontal::before {
@@ -177,7 +165,7 @@ nav {
   z-index: 1000;
   width: 100%;
   padding: 20px;
-/*  display: none;*/  
+/*  display: none;*/
   -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
@@ -236,19 +224,13 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-<<<<<<< HEAD
   height: 100vh;
-=======
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
   width: 100%;
 }
 
 
 #header .header-content {
-<<<<<<< HEAD
   height: 100vh;
-=======
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
   text-align: left;
   width: 100%;
   display: flex;
@@ -257,22 +239,18 @@ nav ul li a {
 }
 
 .header-content h1 {
-<<<<<<< HEAD
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #fff;
   position:absolute;
-=======
   font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
   position:absolute;
   animation: left_to_right ease 3s;
-
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 }
 
 
@@ -281,8 +259,6 @@ nav ul li a {
 	width: 100%;
 }
 
-<<<<<<< HEAD
-=======
 #PVintro
 {
 	/*margin-left: 30px;*/
@@ -291,7 +267,7 @@ nav ul li a {
 	font-weight: 700;
 	margin-top: 25px;
 	line-height: 0.72;
-	
+
 }
 
 @keyframes left_to_right {
@@ -302,24 +278,20 @@ nav ul li a {
 		margin-left: 0px;
 	}
 }
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 /*Media Queries for Header*/
 
 
 #music1 {
   width: 100%;
   background: #f7f7f7;
-<<<<<<< HEAD
   clear:both;
-=======
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 }
 
 .music-img ul {
 	list-style:none;
 }
 
-.music-img ul li 
+.music-img ul li
 {
 	display:inline;
 }
@@ -352,71 +324,7 @@ nav ul li a {
   backface-visibility: hidden;
 }
 
-<<<<<<< HEAD
 
-/*-----------------------------------------------------------------------------------*/
-/*  Journal
-/*-----------------------------------------------------------------------------------*/
-
-#journal,  #journal-blog {
-  height: auto;
-  width: 100%;
-  background: white;
-  padding-bottom: 60px;
-  position: relative;
-}
-
-#journal-blog {
-  background: #fff;
-  padding-bottom: 30px;
-}
-
-#journal .journal-block {
-  display: inline-block;
-  height: auto;
-  width: 100%;
-}
-
-#journal .journal-block .journal-info {
-  position: relative;
-}
-
-.journal-block .journal-info img {
-  max-width: 100%;
-}
-
-.journal-block .journal-info .journal-txt {
-  padding: 25px 0px;
-  position: relative;
-}
-
-.journal-block .journal-info .journal-txt h4 a {
-  display: block;
-  font-size: 19px;
-  line-height: 24px;
-  margin: 0 0 13px 0;
-  font-weight: 500;
-  color: #292929;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-
-.journal-block .journal-info .journal-txt p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-/*-----------------------------------------------------------------------------------*/
-/*  Portfolio
-/*-----------------------------------------------------------------------------------*/
-
-#portfolio {
-=======
 #music2 {
   width: 100%;
   background: #f7f7f7;
@@ -427,7 +335,7 @@ nav ul li a {
 	margin-top: 30%;
 }
 
-.music-text ul li 
+.music-text ul li
 {
 	display:block;
 	font-size: 18px;
@@ -481,7 +389,7 @@ nav ul li a {
 	list-style:none;
 }
 
-.PC-img ul li 
+.PC-img ul li
 {
 	display:inline;
 }
@@ -519,7 +427,7 @@ nav ul li a {
 	margin-top: 30%;
 }
 
-.PC-text ul li 
+.PC-text ul li
 {
 	display:block;
 	font-size: 18px;
@@ -537,22 +445,11 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #ent {
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
   position: relative;
   padding-bottom: 50px;
   background-color:#f7f7f7;
 }
 
-
-<<<<<<< HEAD
-#portfolio .portfolio-container {
-  display: inline-block;
-  margin-bottom: 50px;
-  width: 100%;
-}
-
-.portfolio-thumbnail {
-=======
 #ent .ent-container {
   display: inline-block;
   width: 100%;
@@ -566,13 +463,6 @@ nav ul li a {
   float: left;
 }
 
-<<<<<<< HEAD
-.portfolio-thumbnail img {
-  max-width: 100%;
-}
-
-container_img {
-=======
 .ent-thumbnail img {
   max-width: 100%;
 }
@@ -595,14 +485,11 @@ container_img {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-<<<<<<< HEAD
-=======
   filter: grayscale(100%)
 }
 
 .popup-img:hover {
 	filter: grayscale(0%);
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 }
 
 .middle {
@@ -612,16 +499,9 @@ container_img {
   top: 0;
   bottom: 0;
   left: 15px;
-<<<<<<< HEAD
-  right: 0px;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-=======
   right: 15px;
   height: 100%;
   width: 100%;
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 }
 
 .container_img:hover .image {
@@ -634,24 +514,16 @@ container_img {
 
 .img_overlay {
   color: white;
-<<<<<<< HEAD
-  font-size: 20px;
-=======
   text-shadow: 2px 2px 2px black;
   font-size: 25px;
   line-height:normal;
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-<<<<<<< HEAD
-  text-align: center;
-=======
   text-align: left;
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 }
 
 
@@ -662,7 +534,7 @@ container_img {
 #contact {
   height: auto;
   width: 100%;
-  
+
 }
 
 .contact-details {
@@ -712,10 +584,6 @@ container_img {
   font-size: 13px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
@@ -779,7 +647,3 @@ container_img {
   margin-top: 0;
   text-transform: uppercase;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
