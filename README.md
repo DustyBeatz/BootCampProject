@@ -16,7 +16,7 @@ The about page is the next active link on our site. Clicking that will bring you
 
 ## Authors
 
-* **Jaclyn floman** - *Coder* - [jaclynfloman](https://github.com/jaclynflomen)
+* **Jaclyn flomen** - *Coder* - [jaclynflomen](https://github.com/jaclynflomen)
 
 * **Jay Vernon** - *Motion Desinger* - [Jvernon3](https://github.com/jvernon3)
 
