@@ -1,7 +1,11 @@
 body {
   background: #ffffff;
   color: #898989;
+<<<<<<< HEAD
   font-family: 'Poppins', helvetica;
+=======
+  font-family: 'Avenir Next', helvetica;
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -100,9 +104,12 @@ p {
   padding: 30px 20px;
 }
 
+<<<<<<< HEAD
 .section-title {
   margin-bottom: 70px;
 }
+=======
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 
 .section-title h2 {
   font-size: 25px;
@@ -131,6 +138,7 @@ p {
 }
 
 .paddsection {
+<<<<<<< HEAD
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -138,6 +146,15 @@ p {
 .paddsections {
   padding-top: 90px;
   padding-bottom: 90px !important;
+=======
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.paddsections {
+  padding-top: 30px;
+  padding-bottom: 30px !important;
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 }
 
 .hvr-shutter-in-horizontal::before {
@@ -219,13 +236,19 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
+<<<<<<< HEAD
   height: 100vh;
+=======
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
   width: 100%;
 }
 
 
 #header .header-content {
+<<<<<<< HEAD
   height: 100vh;
+=======
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
   text-align: left;
   width: 100%;
   display: flex;
@@ -234,12 +257,22 @@ nav ul li a {
 }
 
 .header-content h1 {
+<<<<<<< HEAD
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #fff;
   position:absolute;
+=======
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  position:absolute;
+  animation: left_to_right ease 3s;
+
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 }
 
 
@@ -248,13 +281,38 @@ nav ul li a {
 	width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+#PVintro
+{
+	/*margin-left: 30px;*/
+	/*text-shadow: 2px 2px 5px black;*/
+	font-size: 185px;
+	font-weight: 700;
+	margin-top: 25px;
+	line-height: 0.72;
+	
+}
+
+@keyframes left_to_right {
+	from {
+		margin-left: -100%;
+	}
+	to {
+		margin-left: 0px;
+	}
+}
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 /*Media Queries for Header*/
 
 
 #music1 {
   width: 100%;
   background: #f7f7f7;
+<<<<<<< HEAD
   clear:both;
+=======
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 }
 
 .music-img ul {
@@ -294,6 +352,7 @@ nav ul li a {
   backface-visibility: hidden;
 }
 
+<<<<<<< HEAD
 
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
@@ -357,12 +416,135 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #portfolio {
+=======
+#music2 {
+  width: 100%;
+  background: #f7f7f7;
+}
+
+.music-text ul {
+	list-style:none;
+	margin-top: 30%;
+}
+
+.music-text ul li 
+{
+	display:block;
+	font-size: 18px;
+	line-height:normal;
+}
+
+.music-text .section-title
+{
+	margin-bottom: 20px;
+}
+
+.img_overlay_container
+{
+	position: relative;
+    text-align: left;
+    color: white;
+	filter: grayscale(100%);
+}
+
+.text_overlay
+{
+	position: absolute;
+    bottom: 8px;
+    left: 16px;
+	font-weight:400;
+}
+
+.img_overlay_container:hover
+{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	filter: grayscale(0%);
+}
+
+#NYFW
+{
+	color:white;
+	text-stroke: 1px black solid;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Pop Culture
+/*-----------------------------------------------------------------------------------*/
+
+#popculture {
+  width: 100%;
+  background: white;
+}
+
+.PC-img ul {
+	list-style:none;
+}
+
+.PC-img ul li 
+{
+	display:inline;
+}
+
+.PC-img ul li a
+{
+	display: inline;
+	float: left;
+	width: 50%;
+}
+
+#popculture .music-descr .p-heading {
+  font-size: 28px;
+  text-align: left;
+}
+
+#popculture .music-descr .separator {
+  max-width: 80%;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.img-responsive
+{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.PC-text ul {
+	list-style:none;
+	margin-top: 30%;
+}
+
+.PC-text ul li 
+{
+	display:block;
+	font-size: 18px;
+	line-height:normal;
+}
+
+.PC-text .section-title
+{
+	margin-bottom: 20px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Entertainment
+/*-----------------------------------------------------------------------------------*/
+
+#ent {
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
   position: relative;
   padding-bottom: 50px;
   background-color:#f7f7f7;
 }
 
 
+<<<<<<< HEAD
 #portfolio .portfolio-container {
   display: inline-block;
   margin-bottom: 50px;
@@ -370,16 +552,38 @@ nav ul li a {
 }
 
 .portfolio-thumbnail {
+=======
+#ent .ent-container {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.ent-thumbnail {
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
   margin-bottom: 30px;
   overflow: hidden;
   float: left;
 }
 
+<<<<<<< HEAD
 .portfolio-thumbnail img {
   max-width: 100%;
 }
 
 container_img {
+=======
+.ent-thumbnail img {
+  max-width: 100%;
+}
+
+.ent-thumbnail .middle
+{
+	overflow:hidden;
+}
+
+.container_img {
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
     position: relative;
     width: 50%;
 }
@@ -391,6 +595,14 @@ container_img {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+<<<<<<< HEAD
+=======
+  filter: grayscale(100%)
+}
+
+.popup-img:hover {
+	filter: grayscale(0%);
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 }
 
 .middle {
@@ -400,10 +612,16 @@ container_img {
   top: 0;
   bottom: 0;
   left: 15px;
+<<<<<<< HEAD
   right: 0px;
   height: 100%;
   width: 100%;
   background-color: black;
+=======
+  right: 15px;
+  height: 100%;
+  width: 100%;
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 }
 
 .container_img:hover .image {
@@ -416,14 +634,24 @@ container_img {
 
 .img_overlay {
   color: white;
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  text-shadow: 2px 2px 2px black;
+  font-size: 25px;
+  line-height:normal;
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+<<<<<<< HEAD
   text-align: center;
+=======
+  text-align: left;
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 }
 
 
@@ -484,6 +712,10 @@ container_img {
   font-size: 13px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
@@ -547,3 +779,7 @@ container_img {
   margin-top: 0;
   text-transform: uppercase;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
