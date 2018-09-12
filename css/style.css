@@ -1,7 +1,7 @@
 body {
   background: #ffffff;
   color: #898989;
-  font-family: 'Poppins', helvetica;
+  font-family: 'Avenir Next', helvetica;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -100,9 +100,6 @@ p {
   padding: 30px 20px;
 }
 
-.section-title {
-  margin-bottom: 70px;
-}
 
 .section-title h2 {
   font-size: 25px;
@@ -131,13 +128,13 @@ p {
 }
 
 .paddsection {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .paddsections {
-  padding-top: 90px;
-  padding-bottom: 90px !important;
+  padding-top: 30px;
+  padding-bottom: 30px !important;
 }
 
 .hvr-shutter-in-horizontal::before {
@@ -219,13 +216,11 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  height: 100vh;
   width: 100%;
 }
 
 
 #header .header-content {
-  height: 100vh;
   text-align: left;
   width: 100%;
   display: flex;
@@ -234,12 +229,13 @@ nav ul li a {
 }
 
 .header-content h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
-  margin-bottom: 10px;
   text-transform: uppercase;
   color: #fff;
   position:absolute;
+  animation: left_to_right ease 3s;
+
 }
 
 
@@ -248,13 +244,31 @@ nav ul li a {
 	width: 100%;
 }
 
+#PVintro
+{
+	/*margin-left: 30px;*/
+	/*text-shadow: 2px 2px 5px black;*/
+	font-size: 185px;
+	font-weight: 700;
+	margin-top: 25px;
+	line-height: 0.72;
+	
+}
+
+@keyframes left_to_right {
+	from {
+		margin-left: -100%;
+	}
+	to {
+		margin-left: 0px;
+	}
+}
 /*Media Queries for Header*/
 
 
 #music1 {
   width: 100%;
   background: #f7f7f7;
-  clear:both;
 }
 
 .music-img ul {
@@ -294,92 +308,154 @@ nav ul li a {
   backface-visibility: hidden;
 }
 
+#music2 {
+  width: 100%;
+  background: #f7f7f7;
+}
+
+.music-text ul {
+	list-style:none;
+	margin-top: 30%;
+}
+
+.music-text ul li 
+{
+	display:block;
+	font-size: 18px;
+	line-height:normal;
+}
+
+.music-text .section-title
+{
+	margin-bottom: 20px;
+}
+
+.img_overlay_container
+{
+	position: relative;
+    text-align: left;
+    color: white;
+	filter: grayscale(100%);
+}
+
+.text_overlay
+{
+	position: absolute;
+    bottom: 8px;
+    left: 16px;
+	font-weight:400;
+}
+
+.img_overlay_container:hover
+{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	filter: grayscale(0%);
+}
+
+#NYFW
+{
+	color:white;
+	text-stroke: 1px black solid;
+}
 
 /*-----------------------------------------------------------------------------------*/
-/*  Journal
+/*  Pop Culture
 /*-----------------------------------------------------------------------------------*/
 
-#journal,  #journal-blog {
-  height: auto;
+#popculture {
   width: 100%;
   background: white;
-  padding-bottom: 60px;
-  position: relative;
 }
 
-#journal-blog {
-  background: #fff;
-  padding-bottom: 30px;
+.PC-img ul {
+	list-style:none;
 }
 
-#journal .journal-block {
-  display: inline-block;
-  height: auto;
-  width: 100%;
+.PC-img ul li 
+{
+	display:inline;
 }
 
-#journal .journal-block .journal-info {
-  position: relative;
+.PC-img ul li a
+{
+	display: inline;
+	float: left;
+	width: 50%;
 }
 
-.journal-block .journal-info img {
-  max-width: 100%;
+#popculture .music-descr .p-heading {
+  font-size: 28px;
+  text-align: left;
 }
 
-.journal-block .journal-info .journal-txt {
-  padding: 25px 0px;
-  position: relative;
+#popculture .music-descr .separator {
+  max-width: 80%;
+  margin-bottom: 0;
+  text-align: left;
 }
 
-.journal-block .journal-info .journal-txt h4 a {
+.img-responsive
+{
+  opacity: 1;
   display: block;
-  font-size: 19px;
-  line-height: 24px;
-  margin: 0 0 13px 0;
-  font-weight: 500;
-  color: #292929;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.PC-text ul {
+	list-style:none;
+	margin-top: 30%;
+}
+
+.PC-text ul li 
+{
+	display:block;
+	font-size: 18px;
+	line-height:normal;
+}
+
+.PC-text .section-title
+{
+	margin-bottom: 20px;
 }
 
 
-.journal-block .journal-info .journal-txt p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 24px;
-}
-
 /*-----------------------------------------------------------------------------------*/
-/*  Portfolio
+/*  Entertainment
 /*-----------------------------------------------------------------------------------*/
 
-#portfolio {
+#ent {
   position: relative;
   padding-bottom: 50px;
   background-color:#f7f7f7;
 }
 
 
-#portfolio .portfolio-container {
+#ent .ent-container {
   display: inline-block;
-  margin-bottom: 50px;
   width: 100%;
+  margin-top: 20px;
 }
 
-.portfolio-thumbnail {
+.ent-thumbnail {
   margin-bottom: 30px;
   overflow: hidden;
   float: left;
 }
 
-.portfolio-thumbnail img {
+.ent-thumbnail img {
   max-width: 100%;
 }
 
-container_img {
+.ent-thumbnail .middle
+{
+	overflow:hidden;
+}
+
+.container_img {
     position: relative;
     width: 50%;
 }
@@ -391,6 +467,11 @@ container_img {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  filter: grayscale(100%)
+}
+
+.popup-img:hover {
+	filter: grayscale(0%);
 }
 
 .middle {
@@ -400,10 +481,9 @@ container_img {
   top: 0;
   bottom: 0;
   left: 15px;
-  right: 0px;
+  right: 15px;
   height: 100%;
   width: 100%;
-  background-color: black;
 }
 
 .container_img:hover .image {
@@ -416,14 +496,16 @@ container_img {
 
 .img_overlay {
   color: white;
-  font-size: 20px;
+  text-shadow: 2px 2px 2px black;
+  font-size: 25px;
+  line-height:normal;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -483,6 +565,7 @@ container_img {
   font-weight: 400;
   font-size: 13px;
 }
+
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
@@ -547,3 +630,4 @@ container_img {
   margin-top: 0;
   text-transform: uppercase;
 }
+
