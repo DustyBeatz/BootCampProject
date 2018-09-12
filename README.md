@@ -1,2 +1,77 @@
-# BootCampProject
-Pure Volume Project
+# Purevolume Redesign
+
+This project is the redesign of [purevolume.com](purevolume.com). You'll see the updates we made in this document to enhance the user experience to fit the new age music culture. This readme will give a rundown on the running of our site and the resources we used.
+
+## Getting Started
+
+Starting with the index.html will take you to the home page of our redesigned site.
+
+The about page is the next active link on our site. Clicking that will bring you to our video introduction of the site.  
+
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+
+## Built With
+
+* [Bootstrap](https://getbootstrap.com/) - The web framework used
+
+
+## Authors
+
+* **Jaclyn floman** - *Coder* - [jaclynfloman](https://github.com/jaclynflomen)
+
+* **Jay Vernon** - *Motion Desinger* - [Jvernon3](https://github.com/jvernon3)
+
+* **Allison Pao** - *Coder* - [apao4](https://github.com/apao4)
+
+* **Soraya Pittis** - *Designer* - [spittis](https://github.com/spittis)
+
+* **Reece Devine** - *Project Manager* - [DustyBeatz](https://github.com/DustyBeatz)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* We took the big image idea from [ShoeShine](https://www.shoeshine.it/)
+* This post on [Pintrest](https://www.pinterest.ca/pin/739012620080286263/feedback/?invite_code=5b2feb5534a1461fa2fc091c65bf1f82&sender_id=146367194047976735)
+
