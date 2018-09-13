@@ -26,4 +26,21 @@ function() {
 
     }
 
-    toggle.addEventListener("Click", button1, false)
+    toggle.addEventListener("Click", ion-navicon-round, false)
+
+
+
+
+
+	var openNav = document.querySelector(".ion-navicon-round");
+  var Nav = document.querySelector(".nav-menu");
+
+
+  function init(Nav) {
+		console.log("from init");
+
+
+		openNav.addEventListener("click", Nav, false);
+
+
+		}
