@@ -1,6 +1,6 @@
 # Purevolume Redesign
 
-This project is the redesign of [purevolume.com](purevolume.com). You'll see the updates we made in this document to enhance the user experience to fit the new age music culture. This readme will give a rundown on the running of our site and the resources we used.
+This project is the redesign of [purevolume](http://www.purevolume.com). You'll see the updates we made in this document to enhance the user experience to fit the new age music culture. This readme will give a rundown on the running of our site and the resources we used.
 
 ## Getting Started
 
