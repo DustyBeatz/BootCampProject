@@ -110,6 +110,11 @@ p {
 	padding-bottom: 2px;
 }
 
+.section-title li
+{
+  margin-bottom: 20px;
+}
+
 .hidden
 {
   display: none;
@@ -309,13 +314,8 @@ nav ul li a {
 
 .music-text .section-title
 {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	text-align: center;
-}
-
-.music-text
-{
-	height:500px;
 }
 
 .img_overlay_container
@@ -329,9 +329,10 @@ nav ul li a {
 .text_overlay
 {
 	position: absolute;
-    bottom: 8px;
-    left: 16px;
+  bottom: 8px;
+  left: 16px;
 	font-weight:400;
+  font-size: 20px;
 }
 
 .img_overlay_container:hover
@@ -357,7 +358,7 @@ nav ul li a {
 
 #popculture h2
 {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .PC-img ul {
