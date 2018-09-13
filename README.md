@@ -9,45 +9,6 @@ Starting with the index.html will take you to the home page of our redesigned si
 The about page is the next active link on our site. Clicking that will bring you to our video introduction of the site.  
 
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-
 ## Built With
 
 * [Bootstrap](https://getbootstrap.com/) - The web framework used
@@ -55,8 +16,12 @@ Give an example
 
 ## Authors
 
+<<<<<<< HEAD
+* **Jaclyn flomen** - *Coder* - [jaclynflomen](https://github.com/jaclynflomen)
+=======
 * **Jaclyn floman** - *Coder* - [jaclynfloman](https://github.com/jaclynflomen)
 * **Jaclyn Flomen** - *Coder* - [jaclynflomen](https://github.com/jaclynflomen)
+>>>>>>> 69b45d6ad38fbcd39cb67bc343fb0c8096fc031c
 
 * **Jay Vernon** - *Motion Desinger* - [Jvernon3](https://github.com/jvernon3)
 

@@ -1,5 +1,5 @@
 body {
-  background: #ffffff;
+  background: #464646;
   color: #898989;
   font-family: 'Avenir Next', helvetica;
   font-size: 15px;
@@ -100,9 +100,16 @@ p {
 }
 
 .section-title h2 {
-  font-size: 25px;
-  letter-spacing: 2px;
+  font-size: 1.8em;
+  letter-spacing: 7px;
   text-transform: uppercase;
+	color: white;
+	font-family: "Avenir Next", sans-serif, arial, helvetica;
+	font-weight: 300;
+    text-shadow: 2px 2px 20px white, 1px 1px 20px white, 1px 1px 10px white;
+	padding-bottom: 2px;
+	
+	
 }
 
 .form-control {
@@ -152,19 +159,35 @@ nav {
   padding-bottom: 20px;
   margin:  0 auto;
 /*  display: none;*/
-  -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
-  -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 20px 20px 92px 0px rgba(0, 0, 0, 0.30);
+  -moz-box-shadow: 20px 20px 92px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
 
 .nav-menu {
   margin-bottom: 0;
   padding-top: 10px;
+  text-align: center;
 }
 
 .nav-menu ul {
   margin: 0 auto;
 }
+
+.nav-menu a
+{
+	font-family: American Typewriter, Courier, Helvetica;
+	color: white;
+	font-size: 1.1em;
+}
+
+.nav-menu a:hover
+{
+	color: gray;
+	text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
 
 nav ul
 {
@@ -174,6 +197,7 @@ nav ul
 nav ul li {
   float: left;
   font-family: 'Avenir Next', sans-serif;
+  font-weight: lighter;
   font-size: 14px;
   margin-left: 20px;
   padding-top: 20px;
@@ -183,10 +207,10 @@ nav ul li {
 
 nav ul li a {
   display: inline;
-  font-size: 14px;
+  font-size: 2em;
   color: #999999;
   font-family: 'Avenir Next', helvetica;
-  font-weight: 500;
+  font-weight: heavy;
   line-height: 16px;
   text-transform: uppercase;
   letter-spacing: 0.02em;
@@ -199,8 +223,8 @@ nav ul li a {
 }
 
 .logo img {
-  width: 100px;
-  height: 50px;
+  width: 150px;
+  height: auto;
 }
 
 .responsive {
@@ -264,18 +288,18 @@ nav ul li a {
 
 
 #music1 {
-  width: 100%;
-  background: #f7f7f7;
   clear:both;
 }
 
 .music-img ul {
 	list-style:none;
+	margin: 0;
 }
 
 .music-img ul li
 {
 	display:inline;
+	margin-left: 0;
 }
 
 .music-img ul li a
@@ -287,13 +311,11 @@ nav ul li a {
 
 #music1 .music-descr .p-heading {
   font-size: 28px;
-  text-align: left;
 }
 
 #music1 .music-text .separator {
   max-width: 100%;
   margin-bottom: 0;
-  text-align: left;
 }
 
 .img-responsive
@@ -309,7 +331,6 @@ nav ul li a {
 
 #music2 {
   width: 100%;
-  background: #f7f7f7;
 }
 
 .music-text ul {
@@ -320,13 +341,21 @@ nav ul li a {
 .music-text ul li
 {
 	display:block;
-	font-size: 18px;
+	font-size: 1.5em;
 	line-height:normal;
+	text-align: center;
+	color: white;
 }
 
 .music-text .section-title
 {
 	margin-bottom: 20px;
+	text-align: center;
+}
+
+.music-text
+{
+	height:500px;
 }
 
 .img_overlay_container
@@ -334,7 +363,7 @@ nav ul li a {
 	position: relative;
     text-align: left;
     color: white;
-	filter: grayscale(100%);
+	filter: grayscale(0%);
 }
 
 .text_overlay
@@ -349,7 +378,7 @@ nav ul li a {
 {
 	color: white;
 	text-shadow: 2px 2px 2px black;
-	filter: grayscale(0%);
+	filter: grayscale(100%);
 }
 
 #NYFW
@@ -364,7 +393,6 @@ nav ul li a {
 
 #popculture {
   width: 100%;
-  background: white;
 }
 
 .PC-img ul {
