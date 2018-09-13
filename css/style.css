@@ -108,39 +108,6 @@ p {
 	font-weight: 300;
     text-shadow: 2px 2px 20px white, 1px 1px 20px white, 1px 1px 10px white;
 	padding-bottom: 2px;
-
-
-}
-
-.form-control {
-  background-color: transparent;
-  border: 1px solid #999;
-  border-radius: 0;
-  color: #999999;
-  font-size: 12px;
-  font-weight: 500;
-  height: 50px;
-  letter-spacing: 0.1em;
-  margin: 0 0 25px 0;
-  line-height: 14px;
-  text-transform: uppercase;
-}
-
-.form-control:focus {
-  box-shadow: none;
-  outline: 0 none;
-}
-
-.hvr-shutter-in-horizontal::before {
-  background: #333;
-}
-
-.hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
-}
-
-.mb-30 {
-  margin-bottom: 30px;
 }
 
 .hidden
@@ -309,11 +276,6 @@ nav ul li a {
 	width: 50%;
 }
 
-#music1 .music-text .separator {
-  max-width: 100%;
-  margin-bottom: 0;
-}
-
 .img-responsive
 {
   opacity: 1;
@@ -325,7 +287,8 @@ nav ul li a {
 }
 
 
-#music2 {
+.music_mobile {
+  margin-top: 20px;
   width: 100%;
 }
 
@@ -337,10 +300,11 @@ nav ul li a {
 .music-text ul li
 {
 	display:block;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	line-height:normal;
 	text-align: center;
 	color: white;
+  padding-right: 30px;
 }
 
 .music-text .section-title
@@ -391,6 +355,11 @@ nav ul li a {
   width: 100%;
 }
 
+#popculture h2
+{
+  margin-top: 20px;
+}
+
 .PC-img ul {
 	list-style:none;
 }
@@ -405,17 +374,6 @@ nav ul li a {
 	display: inline;
 	float: left;
 	width: 50%;
-}
-
-#popculture .music-descr .p-heading {
-  font-size: 28px;
-  text-align: left;
-}
-
-#popculture .music-descr .separator {
-  max-width: 80%;
-  margin-bottom: 0;
-  text-align: left;
 }
 
 .img-responsive
