@@ -16,7 +16,12 @@ The about page is the next active link on our site. Clicking that will bring you
 
 ## Authors
 
+<<<<<<< HEAD
 * **Jaclyn flomen** - *Coder* - [jaclynflomen](https://github.com/jaclynflomen)
+=======
+* **Jaclyn floman** - *Coder* - [jaclynfloman](https://github.com/jaclynflomen)
+* **Jaclyn Flomen** - *Coder* - [jaclynflomen](https://github.com/jaclynflomen)
+>>>>>>> 69b45d6ad38fbcd39cb67bc343fb0c8096fc031c
 
 * **Jay Vernon** - *Motion Desinger* - [Jvernon3](https://github.com/jvernon3)
 
@@ -35,4 +40,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * We took the big image idea from [ShoeShine](https://www.shoeshine.it/)
 * This post on [Pintrest](https://www.pinterest.ca/pin/739012620080286263/feedback/?invite_code=5b2feb5534a1461fa2fc091c65bf1f82&sender_id=146367194047976735)
-
