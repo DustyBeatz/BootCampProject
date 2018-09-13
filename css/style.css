@@ -139,10 +139,6 @@ p {
   padding-bottom: 35px;
 }
 
-.paddsections {
-  padding-top: 30px;
-  padding-bottom: 30px !important;
-}
 
 .hvr-shutter-in-horizontal::before {
   background: #333;
@@ -154,6 +150,11 @@ p {
 
 .mb-30 {
   margin-bottom: 30px;
+}
+
+.hidden
+{
+  display: none;
 }
 
 /*  Navbar Top
@@ -370,7 +371,7 @@ nav ul li a {
 #NYFW
 {
 	color:white;
-	text-stroke: 1px black solid;
+	text-shadow: 1px #000;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -454,7 +455,6 @@ nav ul li a {
 }
 
 .ent-thumbnail {
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
   margin-bottom: 30px;
   overflow: hidden;
   float: left;
@@ -470,7 +470,6 @@ nav ul li a {
 }
 
 .container_img {
->>>>>>> 1ca14cbaff37d7b7c63290f461de837e5727eccd
     position: relative;
     width: 50%;
 }
@@ -487,6 +486,10 @@ nav ul li a {
 
 .popup-img:hover {
 	filter: grayscale(0%);
+}
+
+.ent-container img:hover {
+  filter:blur(3px);
 }
 
 .middle {
@@ -512,7 +515,7 @@ nav ul li a {
 .img_overlay {
   color: white;
   text-shadow: 2px 2px 2px black;
-  font-size: 25px;
+  font-size: 20px;
   line-height:normal;
   position: absolute;
   top: 50%;
@@ -520,7 +523,7 @@ nav ul li a {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: left;
+  text-align: center;
 }
 
 
