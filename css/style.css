@@ -251,6 +251,7 @@ nav ul li a {
   color: #fff;
   position:absolute;
   animation: left_to_right ease 3s;
+  background-image: url();
 }
 
 
