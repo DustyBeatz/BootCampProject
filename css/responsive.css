@@ -6,9 +6,13 @@
 
 }
 
-/** Width between 992px to 1199px
- *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- */
+nav ul li {
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
 
 @media (min-width: 992px) and (max-width: 1199px) {
 

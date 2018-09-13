@@ -52,7 +52,6 @@ a:hover {
 nav ul li a {
   padding: 2px 0 0 0;
   position: relative;
-  display: block;
   font-size: 12px;
   color: #999999;
   letter-spacing: 0.1em;
@@ -164,7 +163,9 @@ nav {
   background: black;
   z-index: 1000;
   width: 100%;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin:  0 auto;
 /*  display: none;*/
   -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
@@ -180,25 +181,32 @@ nav {
   margin: 0 auto;
 }
 
+nav ul
+{
+  display: inline;
+}
+
 nav ul li {
   float: left;
-  margin-right: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Avenir Next', sans-serif;
   font-size: 14px;
-  margin-left: 40px;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 30px;
 }
 
 nav ul li a {
-  padding: 2px 0 0 0;
-  position: relative;
   display: inline;
   font-size: 14px;
   color: #999999;
-  font-family: 'Poppins', helvetica;
+  font-family: 'Avenir Next', helvetica;
   font-weight: 500;
   line-height: 16px;
   text-transform: uppercase;
   letter-spacing: 0.02em;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .logo {
