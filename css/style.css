@@ -467,11 +467,12 @@ nav ul li a {
 .ent-thumbnail .middle
 {
 	overflow:hidden;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .container_img {
     position: relative;
-    width: 50%;
+    width: 80%;
 }
 
 .popup-img {
@@ -481,15 +482,13 @@ nav ul li a {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  filter: grayscale(100%)
+  filter: grayscale(100%);
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .popup-img:hover {
 	filter: grayscale(0%);
-}
-
-.ent-container img:hover {
-  filter:blur(3px);
 }
 
 .middle {
@@ -498,15 +497,13 @@ nav ul li a {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 15px;
+  left: 0px;
   right: 15px;
   height: 100%;
   width: 100%;
+  padding-left: 15px;
 }
 
-.container_img:hover .image {
-  opacity: 0.3;
-}
 
 .container_img:hover .middle {
   opacity: 1;
@@ -518,12 +515,15 @@ nav ul li a {
   font-size: 20px;
   line-height:normal;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  margin-top: 80%;
+  margin-left: 50%;
+  padding-right: 25px;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  width:inherit;
+  overflow: hidden;
 }
 
 
