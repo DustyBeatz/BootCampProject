@@ -17,7 +17,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0;
+  margin: 0 auto;
 }
 
 h2 {
@@ -77,7 +77,7 @@ p {
 ::selection {
   background: #b8a07e;
   color: #fff;
-   
+
 }
 
 .btn {
@@ -159,20 +159,28 @@ nav {
   background: black;
   z-index: 1000;
   width: 100%;
-  padding: 20px;
-/*  display: none;*/  
+  padding-top: 20px;
+/*  display: none;*/
   -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
 
-.nav-menu {
+.nav-menu
+{
   margin-bottom: 0;
   padding-top: 10px;
+  margin: 0 auto;
+  text-align;
 }
 
 .nav-menu ul {
   margin: 0 auto;
+}
+
+.nav-menu a {
+  font-family: American Typewriter, Arial, monospace, helvetica;
+  color: white;
 }
 
 nav ul li {
@@ -219,7 +227,6 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #header {
-  height: 100vh;
   width: 100%;
 }
 
@@ -229,27 +236,118 @@ nav ul li a {
   text-align: left;
   width: 100%;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: margin-left;
 }
 
 .header-content h1 {
-  font-size: 40px;
+  font-size: 225px;
   font-weight: 700;
-  margin-bottom: 10px;
+  /*margin-top: 300px;*/
+  /*margin-bottom: 10px;*/
+  margin-top: 50px;
+  line-height: 0.72;
+  margin-left: 10px;
+  /*text-shadow: 1px 1px #000;*/
   text-transform: uppercase;
   color: #fff;
-  position:absolute;
+  animation: left_to_right ease 3s;
 }
 
+@keyframes left_to_right {
+  from {
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 10px;
+  }
+}
+
+HTML  CSS Result
+EDIT ON
+ /* GLOBAL STYLES */
+body {
+  background: #333;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1
+{
+  color: #FFF;
+  font-family: 'Avenir Next';
+  font-weight: 600;
+  font-size: 225px;
+  padding-top: 75px;
+  line-height: 0.71;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid; /* The typwriter cursor */
+  white-space: pre; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .07em; /* Adjust as needed */
+  animation:
+    typing 1s steps(30, end),
+    blink-caret .5s step-end infinite;
+  position: absolute;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  100% { border-color: orange }
+}
+
+#typewritertext
+{
+  text-align: left;
+}
 
 #header_bg
 {
-	width: 100%;
+	width: 100% !important;
+}
+
+.header-content img
+{
+    width: 100%;
+}
+
+/*video*/
+#videoPlayer
+{
+  background-color: black;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 /*Media Queries for Header*/
 
+#about
+{
+  width: 100%;
+  background-image: url(images/purevolume pics/concert.jpg);
+}
+
+.text-block {
+    width: 50%;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
 
 #music1 {
   width: 100%;
@@ -261,7 +359,7 @@ nav ul li a {
 	list-style:none;
 }
 
-.music-img ul li 
+.music-img ul li
 {
 	display:inline;
 }
@@ -352,6 +450,59 @@ nav ul li a {
   line-height: 24px;
 }
 
+/*stats*/
+#stats
+{
+  background-color: #4d4d4d;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#stats h1
+{
+  color: white;
+  text-shadow: 0 0 0.2em #FFF, 0 0 0.2em #FFF;
+  letter-spacing: 4px;
+  font-family: 'Avenir Next', helvetica;
+  font-weight: lighter;
+  font-size: 1.7em;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#stats h3
+{
+  color: #f2bfd3;
+  font-family: 'American Typewriter';
+  font-size: 1.5em;
+  display: inline;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#stats h4
+{
+  color: white;
+  font-family: 'American Typewriter';
+  font-size: 1.2em;
+  display: inline;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.stat
+{
+  width: 33%;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*  Portfolio
 /*-----------------------------------------------------------------------------------*/
@@ -434,7 +585,7 @@ container_img {
 #contact {
   height: auto;
   width: 100%;
-  
+
 }
 
 .contact-details {
@@ -546,4 +697,9 @@ container_img {
   font-weight: 500;
   margin-top: 0;
   text-transform: uppercase;
+}
+
+#map img
+{
+  width: 100%;
 }
