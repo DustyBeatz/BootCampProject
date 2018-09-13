@@ -1,5 +1,5 @@
 body {
-  background: #ffffff;
+  background: #464646;
   color: #898989;
   font-family: 'Avenir Next', helvetica;
   font-size: 15px;
@@ -52,7 +52,6 @@ a:hover {
 nav ul li a {
   padding: 2px 0 0 0;
   position: relative;
-  display: block;
   font-size: 12px;
   color: #999999;
   letter-spacing: 0.1em;
@@ -77,7 +76,7 @@ p {
 ::selection {
   background: #b8a07e;
   color: #fff;
-   
+
 }
 
 .btn {
@@ -100,11 +99,21 @@ p {
   padding: 30px 20px;
 }
 
+.section-title {
+  margin-bottom: 70px;
+}
 
 .section-title h2 {
-  font-size: 25px;
-  letter-spacing: 2px;
+  font-size: 1.8em;
+  letter-spacing: 7px;
   text-transform: uppercase;
+	color: white;
+	font-family: "Avenir Next", sans-serif, arial, helvetica;
+	font-weight: 300;
+    text-shadow: 2px 2px 20px white, 1px 1px 20px white, 1px 1px 10px white;
+	padding-bottom: 2px;
+	
+	
 }
 
 .form-control {
@@ -128,14 +137,15 @@ p {
 }
 
 .paddsection {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.paddsections {
   padding-top: 35px;
   padding-bottom: 35px;
 }
 
-.paddsections {
-  padding-top: 30px;
-  padding-bottom: 30px !important;
-}
 
 .hvr-shutter-in-horizontal::before {
   background: #333;
@@ -149,6 +159,11 @@ p {
   margin-bottom: 30px;
 }
 
+.hidden
+{
+  display: none;
+}
+
 /*  Navbar Top
 /*-----------------------------------------------------------------------------------*/
 
@@ -156,41 +171,67 @@ nav {
   background: black;
   z-index: 1000;
   width: 100%;
-  padding: 20px;
-/*  display: none;*/  
-  -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
-  -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin:  0 auto;
+/*  display: none;*/
+  -webkit-box-shadow: 20px 20px 92px 0px rgba(0, 0, 0, 0.30);
+  -moz-box-shadow: 20px 20px 92px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
 
 .nav-menu {
   margin-bottom: 0;
   padding-top: 10px;
+  text-align: center;
 }
 
 .nav-menu ul {
   margin: 0 auto;
 }
 
+.nav-menu a
+{
+	font-family: American Typewriter, Courier, Helvetica;
+	color: white;
+	font-size: 1.1em;
+}
+
+.nav-menu a:hover
+{
+	color: gray;
+	text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+
+nav ul
+{
+  display: inline;
+}
+
 nav ul li {
   float: left;
-  margin-right: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: lighter;
   font-size: 14px;
-  margin-left: 40px;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 30px;
 }
 
 nav ul li a {
-  padding: 2px 0 0 0;
-  position: relative;
   display: inline;
-  font-size: 14px;
+  font-size: 2em;
   color: #999999;
-  font-family: 'Poppins', helvetica;
-  font-weight: 500;
+  font-family: 'Avenir Next', helvetica;
+  font-weight: heavy;
   line-height: 16px;
   text-transform: uppercase;
   letter-spacing: 0.02em;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -198,8 +239,8 @@ nav ul li a {
 }
 
 .logo img {
-  width: 100px;
-  height: 50px;
+  width: 150px;
+  height: auto;
 }
 
 .responsive {
@@ -229,13 +270,19 @@ nav ul li a {
 }
 
 .header-content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  position:absolute;
   font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
   position:absolute;
   animation: left_to_right ease 3s;
-
+  background-image: url();
 }
 
 
@@ -248,36 +295,27 @@ nav ul li a {
 {
 	/*margin-left: 30px;*/
 	/*text-shadow: 2px 2px 5px black;*/
-	font-size: 185px;
 	font-weight: 700;
 	margin-top: 25px;
 	line-height: 0.72;
-	
-}
 
-@keyframes left_to_right {
-	from {
-		margin-left: -100%;
-	}
-	to {
-		margin-left: 0px;
-	}
 }
 /*Media Queries for Header*/
 
 
 #music1 {
-  width: 100%;
-  background: #f7f7f7;
+  clear:both;
 }
 
 .music-img ul {
 	list-style:none;
+	margin: 0;
 }
 
-.music-img ul li 
+.music-img ul li
 {
 	display:inline;
+	margin-left: 0;
 }
 
 .music-img ul li a
@@ -289,13 +327,11 @@ nav ul li a {
 
 #music1 .music-descr .p-heading {
   font-size: 28px;
-  text-align: left;
 }
 
 #music1 .music-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
-  text-align: left;
 }
 
 .img-responsive
@@ -308,9 +344,9 @@ nav ul li a {
   backface-visibility: hidden;
 }
 
+
 #music2 {
   width: 100%;
-  background: #f7f7f7;
 }
 
 .music-text ul {
@@ -318,16 +354,24 @@ nav ul li a {
 	margin-top: 30%;
 }
 
-.music-text ul li 
+.music-text ul li
 {
 	display:block;
-	font-size: 18px;
+	font-size: 1.5em;
 	line-height:normal;
+	text-align: center;
+	color: white;
 }
 
 .music-text .section-title
 {
 	margin-bottom: 20px;
+	text-align: center;
+}
+
+.music-text
+{
+	height:500px;
 }
 
 .img_overlay_container
@@ -335,7 +379,7 @@ nav ul li a {
 	position: relative;
     text-align: left;
     color: white;
-	filter: grayscale(100%);
+	filter: grayscale(0%);
 }
 
 .text_overlay
@@ -350,13 +394,13 @@ nav ul li a {
 {
 	color: white;
 	text-shadow: 2px 2px 2px black;
-	filter: grayscale(0%);
+	filter: grayscale(100%);
 }
 
 #NYFW
 {
 	color:white;
-	text-stroke: 1px black solid;
+	text-shadow: 1px #000;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -365,14 +409,13 @@ nav ul li a {
 
 #popculture {
   width: 100%;
-  background: white;
 }
 
 .PC-img ul {
 	list-style:none;
 }
 
-.PC-img ul li 
+.PC-img ul li
 {
 	display:inline;
 }
@@ -410,7 +453,7 @@ nav ul li a {
 	margin-top: 30%;
 }
 
-.PC-text ul li 
+.PC-text ul li
 {
 	display:block;
 	font-size: 18px;
@@ -433,7 +476,6 @@ nav ul li a {
   background-color:#f7f7f7;
 }
 
-
 #ent .ent-container {
   display: inline-block;
   width: 100%;
@@ -453,11 +495,12 @@ nav ul li a {
 .ent-thumbnail .middle
 {
 	overflow:hidden;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .container_img {
     position: relative;
-    width: 50%;
+    width: 80%;
 }
 
 .popup-img {
@@ -467,7 +510,9 @@ nav ul li a {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-  filter: grayscale(100%)
+  filter: grayscale(100%);
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .popup-img:hover {
@@ -480,15 +525,13 @@ nav ul li a {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 15px;
+  left: 0px;
   right: 15px;
   height: 100%;
   width: 100%;
+  padding-left: 15px;
 }
 
-.container_img:hover .image {
-  opacity: 0.3;
-}
 
 .container_img:hover .middle {
   opacity: 1;
@@ -497,15 +540,18 @@ nav ul li a {
 .img_overlay {
   color: white;
   text-shadow: 2px 2px 2px black;
-  font-size: 25px;
+  font-size: 20px;
   line-height:normal;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  margin-top: 80%;
+  margin-left: 50%;
+  padding-right: 25px;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: left;
+  text-align: center;
+  width:inherit;
+  overflow: hidden;
 }
 
 
@@ -516,7 +562,7 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
-  
+
 }
 
 .contact-details {
@@ -565,7 +611,6 @@ nav ul li a {
   font-weight: 400;
   font-size: 13px;
 }
-
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
@@ -630,4 +675,3 @@ nav ul li a {
   margin-top: 0;
   text-transform: uppercase;
 }
-
