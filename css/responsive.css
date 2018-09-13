@@ -6,13 +6,6 @@
 
 }
 
-nav ul li {
-  margin-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  padding-left: 40px;
-}
-
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
@@ -41,7 +34,7 @@ nav ul li {
     line-height: 45px;
     margin-left: 0;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   .responsive {
     float: right;
@@ -94,7 +87,7 @@ nav ul li {
 @media (max-width: 767px) {
   /* Navbar */
   nav {
-    padding: 20px 15px;
+    padding: 15px 15px;
   }
   .nav-menu {
     margin-top: 40px;
@@ -446,8 +439,18 @@ nav ul li {
   		margin-left: 0px;
   	}
   }
+  nav ul li {
+    float: left;
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
 
 }
+
 
 @media (min-width: 991px)
 {
