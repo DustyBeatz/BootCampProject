@@ -13,7 +13,7 @@ function() {
     // ========================================================================= //
 
     function toggle() {
-        var button1 = document.querySelector(".nav")
+        var button1 = document.querySelector(".nav-menu")
         if (button1.style.display === "none") {
             button1.style.display = "block";
         } else {
