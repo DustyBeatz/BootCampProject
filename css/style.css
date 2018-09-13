@@ -236,7 +236,7 @@ nav ul li a {
 }
 
 .header-content h1 {
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
   font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
@@ -244,7 +244,7 @@ nav ul li a {
   position:absolute;
   animation: left_to_right ease 3s;
 
-=======
+/*=======*/
   font-size: 225px;
   font-weight: 700;
   /*margin-top: 300px;*/
@@ -256,7 +256,7 @@ nav ul li a {
   text-transform: uppercase;
   color: #fff;
   animation: left_to_right ease 3s;
->>>>>>> 56b44b5904553b03b48936cdfbbe32bf357ad69a
+/*>>>>>>> 56b44b5904553b03b48936cdfbbe32bf357ad69a*/
 }
 
 @keyframes left_to_right {
@@ -315,15 +315,11 @@ body {
   text-align: left;
 }
 
-#header_bg
+.header_bg
 {
-	width: 100% !important;
+	width: 100%;
 }
 
-.header-content img
-{
-    width: 100%;
-}
 
 /*video*/
 #videoPlayer
@@ -356,11 +352,13 @@ body {
 }
 /*Media Queries for Header*/
 
-#about
+
+/*#about
 {
   width: 100%;
   background-image: url(images/purevolume pics/concert.jpg);
 }
+*/
 
 .text-block {
     width: 50%;
@@ -801,3 +799,12 @@ body {
   width: 100%;
 }
 >>>>>>> 56b44b5904553b03b48936cdfbbe32bf357ad69a
+
+/*About Page*/
+.aboutHeader
+{
+  width: 100%;
+  background-size: cover;
+  margin: 0 auto;
+  padding-left: 50px;
+}
