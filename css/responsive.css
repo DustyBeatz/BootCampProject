@@ -66,6 +66,15 @@
     display: inline-block;
   }
 
+  .middle {
+    opacity: 1;
+  }
+  .img_overlay {
+    font-size: 30px;
+    margin-top: 80%;
+  }
+
+
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
@@ -139,6 +148,14 @@
     float: none;
     margin: 20px;
     display: inline-block;
+  }
+
+  .middle {
+    opacity: 1;
+  }
+  .img_overlay {
+    font-size: 25px;
+    margin-top: 80%;
   }
 
   /* pop culture */
