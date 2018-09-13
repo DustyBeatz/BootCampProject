@@ -391,9 +391,76 @@
 	}
 }
 
+@media (max-width: 399px)
+{
+  #PVintro
+  {
+    font-size: 50px;
+  }
+
+  @keyframes left_to_right {
+  	from {
+  		margin-left: -100%;
+  	}
+  	to {
+  		margin-left: 0px;
+  	}
+  }
+
+}
+
+@media (min-width: 400px)
+{
+  #PVintro
+  {
+    font-size: 70px;
+  }
+
+  @keyframes left_to_right {
+  	from {
+  		margin-left: -100%;
+  	}
+  	to {
+  		margin-left: 0px;
+  	}
+  }
+
+}
+
+@media (min-width: 700px)
+{
+  #PVintro
+  {
+    font-size: 100px;
+  }
+
+  @keyframes left_to_right {
+  	from {
+  		margin-left: -100%;
+  	}
+  	to {
+  		margin-left: 0px;
+  	}
+  }
+
+}
 
 @media (min-width: 991px)
 {
+  #PVintro
+  {
+    font-size: 142px;
+  }
+
+  @keyframes left_to_right {
+  	from {
+  		margin-left: -100%;
+  	}
+  	to {
+  		margin-left: 0px;
+  	}
+  }
+
 	.music_mobile
 	{
 		display:none;
@@ -403,4 +470,12 @@
 {
 	margin-top: 20%;
 }
+}
+
+@media (min-width: 1440px)
+{
+  #PVintro
+  {
+    font-size: 205px;
+  }
 }

@@ -263,20 +263,10 @@ nav ul li a {
 {
 	/*margin-left: 30px;*/
 	/*text-shadow: 2px 2px 5px black;*/
-	font-size: 185px;
 	font-weight: 700;
 	margin-top: 25px;
 	line-height: 0.72;
 
-}
-
-@keyframes left_to_right {
-	from {
-		margin-left: -100%;
-	}
-	to {
-		margin-left: 0px;
-	}
 }
 /*Media Queries for Header*/
 
