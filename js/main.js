@@ -40,9 +40,11 @@ $(document).ready(function() {
 
 var video1 = document.querySelector("#trailer");
 var video2 = document.querySelector("#trailer_mobile");
+var video3 = document.querySelector("#trailer_tablet");
 
 video1.addEventListener("click", swapMov, false);
 video2.addEventListener("click", swapMov, false);
+video3.addEventListener("click", swapMov, false);
 }
 
   function swapMov(evt){
@@ -55,3 +57,15 @@ video2.addEventListener("click", swapMov, false);
   			console.log(video.currentScr);
   		}
   	window.addEventListener("load", init, false);
+
+
+    function swapMov(evt){
+          //console.log("From swapMov");
+          if(evt.currentTarget.id==="trailer_tablet"){
+            video.src="video/video_Tablet.mp4";
+          }else{
+            video.src="video/video_Desktop.mp4";
+          }
+          console.log(video.currentScr);
+        }
+      window.addEventListener("load", init, false);
