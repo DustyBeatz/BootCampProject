@@ -372,6 +372,11 @@ about
 
 }
 
+.aboutUs
+{
+  height: 100px;
+}
+
 #aboutImg img
 {
   width: 50%;
