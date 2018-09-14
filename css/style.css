@@ -162,14 +162,19 @@ nav {
 }
 
 
+nav ul
+{
+  display: inline;
+}
+
 nav ul li {
   float: left;
   font-family: 'Avenir Next', sans-serif;
   font-weight: lighter;
   font-size: 14px;
+  margin-left: 20px;
   padding-top: 20px;
   padding-bottom: 10px;
-  display: block;
   padding-left: 30px;
 }
 
@@ -196,6 +201,7 @@ nav ul li a {
 }
 
 .responsive {
+  display: none;
   font-size: 23px;
 }
 
