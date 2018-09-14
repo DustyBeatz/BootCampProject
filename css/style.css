@@ -1,5 +1,5 @@
 body {
-  background: #464646;
+  background: #333333;
   color: #898989;
   font-family: 'Avenir Next', helvetica;
   font-size: 15px;
@@ -72,6 +72,16 @@ p {
   font-size: 15px;
   color: #999999;
   line-height: 28px;
+}
+
+img {
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+}
+img:hover {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
 }
 
 ::selection {
@@ -231,7 +241,7 @@ nav ul li a {
 
 #header .header-content {
   text-align: left;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: margin-left;
 }
@@ -379,11 +389,25 @@ body {
   width: 50%;
   text-align: center;
   float: left;
+}
+
+#aboutText p
+{
+  font-family: 'Avenir Next';
+  font-size: 1.1em;
+  padding: 75px;
+}
+
+#aboutText h1
+{
   color: white;
+  text-shadow: 0 0 0.2em #FFF, 0 0 0.2em #FFF;
+  letter-spacing: 4px;
   font-family: 'Avenir Next', helvetica;
   font-weight: lighter;
-  font-size: 1.5em;
-  padding: 1em;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 100px;
 }
 
 #statsText
@@ -573,7 +597,7 @@ body {
 /*stats*/
 #statistics
 {
-  background-color: #464646;
+  background-color: #333333;
   width: 100%;
   margin: 0 auto;
   clear: both;
@@ -587,16 +611,16 @@ body {
   letter-spacing: 4px;
   font-family: 'Avenir Next', helvetica;
   font-weight: lighter;
-  font-size: 1.7em;
+  font-size: 3em;
   text-align: center;
   padding-top: 60px;
 }
 
 #statistics h3
 {
-  color: #f2bfd3;
+  color: #e73169;
   font-family: 'Courier';
-  font-size: 1.5em;
+  font-size: 1.7em;
   text-align: center;
   margin: 0 auto;
 }
@@ -619,7 +643,7 @@ body {
   float: left;
   margin: 0 auto;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 >>>>>>> 56b44b5904553b03b48936cdfbbe32bf357ad69a
 
@@ -850,4 +874,79 @@ body {
   background-size: cover;
   margin: 0 auto;
   padding-left: 50px;
+}
+
+#trailer
+{
+	width:100%;
+}
+
+#volume {
+	position: absolute;
+	left: 24px;
+	margin: 0 auto;
+	height: 5px;
+	width: 300px;
+	background: #555;
+	border-radius: 15px;
+
+	.ui-slider-range-min {
+		height: 5px;
+		width: 300px;
+		position: absolute;
+		background: $primary-color;
+		border: none;
+		border-radius: 10px;
+  	outline: none;
+	}
+
+	.ui-slider-handle {
+		width: 20px;
+  	height: 20px;
+		border-radius: 20px;
+  	background: #FFF;
+  	position: absolute;
+  	margin-left: -8px;
+  	margin-top: -8px;
+  	cursor: pointer;
+  	outline: none;
+	}
+}
+
+#videoPlayer
+{
+  clear: both;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#controls
+{
+  margin: 0 auto;
+  text-align: center;
+}
+
+#playPause
+{
+	font-family: 'Avenir Next', cambria;
+  font-weight: bold;
+	border-radius: 5%;
+	background-color: #efefef;
+	border-bottom: thin;
+	border-bottom-color: #454545;
+	border-bottom-style:solid;
+	border-right: thin;
+	border-right-color: #454545;
+	border-right-style:solid;
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+#playPause:hover
+{
+	background-color: #7C7C7C;
+	cursor: pointer;
 }
