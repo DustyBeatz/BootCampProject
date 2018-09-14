@@ -365,7 +365,6 @@ body {
 
 about
 {
-  width: 100%;
   background-image: url(images/purevolume pics/concert.jpg);
   display: inline-block;
   clear: both;
@@ -581,7 +580,6 @@ about
 #statistics
 {
   background-color: #333333;
-  width: 100%;
   margin: 0 auto;
   clear: both;
   padding: 0;
