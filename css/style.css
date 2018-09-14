@@ -241,8 +241,12 @@ nav ul li a {
 
 #header .header-content {
   text-align: left;
+<<<<<<< HEAD
   max-width: 100%;
 ]  width: 100%;
+=======
+  width: 100%;
+>>>>>>> cf1c710bc90778907a6fd719e9cc71b4bebd9e2e
   height: auto;
   display: flex;
   justify-content: margin-left;
@@ -381,13 +385,15 @@ body {
 {
   width: 50%;
   float: left;
-  clear: both;
 }
 
 #aboutText
 {
   width: 50%;
   text-align: center;
+<<<<<<< HEAD
+  float: right;
+=======
   float: left;
 }
 
@@ -738,9 +744,12 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+<<<<<<< HEAD
   margin-top: 80%;
   margin-left: 40%;
   width: 60%;
+=======
+>>>>>>> cf1c710bc90778907a6fd719e9cc71b4bebd9e2e
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -748,7 +757,10 @@ body {
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cf1c710bc90778907a6fd719e9cc71b4bebd9e2e
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
 /*-----------------------------------------------------------------------------------*/
@@ -805,7 +817,10 @@ body {
   font-weight: 400;
   font-size: 13px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> cf1c710bc90778907a6fd719e9cc71b4bebd9e2e
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -872,12 +887,19 @@ body {
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> cf1c710bc90778907a6fd719e9cc71b4bebd9e2e
 #map img
 {
   width: 100%;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> cf1c710bc90778907a6fd719e9cc71b4bebd9e2e
 
 /*About Page*/
 .aboutHeader
