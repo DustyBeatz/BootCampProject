@@ -52,10 +52,7 @@ a:hover {
   transition: all 0.5s ease-in-out 0s;
 }
 
-.hide
-{
-  display:none;
-}
+
 
 nav ul li a {
   padding: 2px 0 0 0;
@@ -247,13 +244,11 @@ nav ul li a {
 }
 
 .header-content h1 {
-  font-size: 40px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #fff;
   position:absolute;
-  font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
@@ -329,6 +324,7 @@ body {
 #typewritertext
 {
   text-align: left;
+  display: block;
 }
 
 .header_bg
