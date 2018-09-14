@@ -1,6 +1,6 @@
 # Purevolume Redesign
 
-This project is the redesign of [purevolume.com](purevolume.com). You'll see the updates we made in this document to enhance the user experience to fit the new age music culture. This readme will give a rundown on the running of our site and the resources we used.
+This project is the redesign of [purevolume](http://www.purevolume.com). You'll see the updates we made in this document to enhance the user experience to fit the new age music culture. This readme will give a rundown on the running of our site and the resources we used.
 
 ## Getting Started
 
@@ -16,12 +16,7 @@ The about page is the next active link on our site. Clicking that will bring you
 
 ## Authors
 
-<<<<<<< HEAD
-* **Jaclyn flomen** - *Coder* - [jaclynflomen](https://github.com/jaclynflomen)
-=======
-* **Jaclyn floman** - *Coder* - [jaclynfloman](https://github.com/jaclynflomen)
 * **Jaclyn Flomen** - *Coder* - [jaclynflomen](https://github.com/jaclynflomen)
->>>>>>> 69b45d6ad38fbcd39cb67bc343fb0c8096fc031c
 
 * **Jay Vernon** - *Motion Desinger* - [Jvernon3](https://github.com/jvernon3)
 
