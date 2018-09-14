@@ -52,6 +52,11 @@ a:hover {
   transition: all 0.5s ease-in-out 0s;
 }
 
+.hide
+{
+  display:none;
+}
+
 nav ul li a {
   padding: 2px 0 0 0;
   position: relative;
