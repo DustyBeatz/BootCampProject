@@ -69,26 +69,6 @@ a:hover {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#small_menu
-{
-  padding: 0px !important;
-}
-
-#small_menu ul li a
-{
-  font-size: 12px;
-  color: #999999;
-  line-height: 14px;
-  text-transform: uppercase;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-  text-align: center;
-  margin: 0 auto;
-  position: relative;
-}
 
 p {
   margin: 25px 0;
@@ -142,6 +122,10 @@ p {
 
 .hidden
 {
+  display: none;
+}
+
+.hide {
   display: none;
 }
 
@@ -344,7 +328,6 @@ body {
 #typewritertext
 {
   text-align: left;
-  display: block;
 }
 
 .header_bg

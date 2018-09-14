@@ -84,6 +84,11 @@
 @media (min-width: 768px) and (max-width: 991px) {
   /* Navbar */
 
+  #typewritertext
+  {
+    font-size: 120px;
+  }
+
   #main-nav
   {
     dislay: none;
@@ -182,9 +187,9 @@
 @media (max-width: 767px) {
   /* Navbar */
 
-  .nav-menu2
+  #typewritertext
   {
-    display: none;
+    font-size: 100px;
   }
 
   nav {
@@ -293,6 +298,10 @@
 @media (max-width: 600px) {
   /* Navbar */
 
+  #typewritertext
+  {
+    font-size: 80px;
+  }
   #main-nav
   {
     display: none;
@@ -624,10 +633,6 @@
 @media (min-width: 400px)
 {
 
-  .nav-menu2
-  {
-    display: none;
-  }
 
   #PVintro
   {
@@ -641,6 +646,10 @@
   	to {
   		margin-left: 0px;
   	}
+  }
+  #typewritertext
+  {
+    font-size: 40px;
   }
 
 }
