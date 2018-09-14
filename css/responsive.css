@@ -7,6 +7,10 @@
   {
     padding-right: 30px;
   }
+
+  nav{
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -22,31 +26,7 @@
  */
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* Navbar */
-  nav {
-    padding: 10px 15px;
-  }
-  .nav-menu {
-    margin-top: 40px;
-    float: none;
-    width: 100%;
-  }
-  .nav-menu li {
-    float: none;
-    width: 100%;
-    text-align: center;
-    border-top: 1px solid #f7f7f7;
-    line-height: 45px;
-    margin-left: 0;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    display:none;
-  }
-  .responsive {
-    float: right;
-    padding-top: 15px;
-    display: block;
-  }
+
   /* music */
   .head-info .header-content .cmaster h1 {
     font-size: 32px;
@@ -85,50 +65,12 @@
     margin-top: 80%;
   }
 
-
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
-  }
-  /* Footer */
-  #footer .socials-media ul li {
-    margin-right: 0;
-    margin-left: 0;
-    float: none;
-    display: inline-block;
-  }
-}
-
 /** Width between 767px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
 @media (max-width: 767px) {
-  /* Navbar */
-  nav {
-    padding: 15px 15px;
-  }
-  .nav-menu {
-    margin-top: 40px;
-    float: none;
-    width: 100%;
-  }
-  .nav-menu li {
-    float: none;
-    width: 100%;
-    text-align: center;
-    border-top: 1px solid #f7f7f7;
-    line-height: 45px;
-    margin-left: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: none;
-  }
-  .responsive {
-    float: right;
-    padding-top: 15px;
-    display: block;
-  }
+
   /* music */
   .head-info .header-content h1 {
     font-size: 32px;
@@ -186,31 +128,7 @@
  */
 
 @media (max-width: 600px) {
-  /* Navbar */
-  nav {
-    padding: 20px 15px;
-  }
-  .nav-menu {
-    margin-top: 40px;
-    float: none;
-    width: 100%;
-  }
-  .nav-menu li {
-    float: none;
-    width: 100%;
-    text-align: center;
-    border-top: 1px solid #f7f7f7;
-    line-height: 45px;
-    margin-left: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: none;
-  }
-  .responsive {
-    float: right;
-    padding-top: 15px;
-    display: block;
-  }
+
   /* music */
   .head-info .header-content h1 {
     font-size: 32px;
@@ -230,49 +148,14 @@
     margin-bottom: 0;
   }
 
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
-  }
-  /* Footer */
-  #footer .socials-media ul li {
-    margin-right: 0;
-    margin-left: 0;
-    float: none;
-    display: inline-block;
-  }
-}
+
 
 /** Width between 480px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
 @media (max-width: 480px) {
-  /* Navbar */
-  nav {
-    padding: 20px 15px;
-  }
-  .nav-menu {
-    margin-top: 40px;
-    float: none;
-    width: 100%;
-  }
-  .nav-menu li {
-    float: none;
-    width: 100%;
-    text-align: center;
-    border-top: 1px solid #f7f7f7;
-    line-height: 45px;
-    margin-left: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: none;
-  }
-  .responsive {
-    float: right;
-    padding-top: 15px;
-    display: block;
-  }
+
   /* music */
   .head-info .header-content h1 {
     font-size: 32px;
@@ -302,48 +185,13 @@
     margin-bottom: 0;
   }
 
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
-  }
-  /* Footer */
-  #footer .socials-media ul li {
-    margin-right: 0;
-    margin-left: 0;
-    float: none;
-    display: inline-block;
-  }
-}
 
 /** Width between 320px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 
 @media (max-width: 320px) {
-  /* Navbar */
-  nav {
-    padding: 20px 15px;
-  }
-  .nav-menu {
-    margin-top: 40px;
-    float: none;
-    width: 100%;
-  }
-  .nav-menu li {
-    float: none;
-    width: 100%;
-    text-align: center;
-    border-top: 1px solid #f7f7f7;
-    line-height: 45px;
-    margin-left: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .responsive {
-    float: right;
-    padding-top: 15px;
-    display: block;
-  }
+
   /* music */
   .head-info .header-content h1 {
     font-size: 32px;
@@ -367,24 +215,6 @@
     float: none;
     margin: 20px;
   }
-
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
-  }
-  /* Footer */
-  #footer .socials-media ul li {
-    margin-right: 0;
-    margin-left: 0;
-    float: none;
-    display: inline-block;
-  }
-  /* Single page */
-  .entry-comments-body span {
-    display: inline-block;
-    margin-right: 0;
-  }
-}
 
 
 
@@ -456,15 +286,6 @@
   	to {
   		margin-left: 0px;
   	}
-  }
-  nav ul li {
-    float: left;
-    font-family: 'Avenir Next', sans-serif;
-    font-size: 14px;
-    margin-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 30px;
   }
 
 }
