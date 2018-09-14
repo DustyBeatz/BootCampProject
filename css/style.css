@@ -233,6 +233,7 @@ nav ul li a {
 #header .header-content {
   text-align: left;
   width: 100%;
+  height: auto;
   display: flex;
   justify-content: margin-left;
 
@@ -255,16 +256,15 @@ nav ul li a {
 /*=======*/
   font-size: 225px;
   font-weight: 700;
-  /*margin-top: 300px;*/
+  /*margin-top: 300px;
   /*margin-bottom: 10px;*/
   margin-top: 50px;
   line-height: 0.72;
   margin-left: 10px;
-  /*text-shadow: 1px 1px #000;*/
+  text-shadow: 1px 1px #000;
   text-transform: uppercase;
   color: #fff;
   animation: left_to_right ease 3s;
-/*>>>>>>> 56b44b5904553b03b48936cdfbbe32bf357ad69a*/
 }
 
 @keyframes left_to_right {
@@ -327,6 +327,7 @@ body {
 .header_bg
 {
 	width: 100%;
+  height: auto;
 }
 
 
@@ -556,6 +557,7 @@ about
 	margin-bottom: 20px;
 }
 
+
 /*stats*/
 #statistics
 {
@@ -639,6 +641,20 @@ about
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+#ent_title
+{
+  color: #333;
+  padding: 40px 0px 0px 40px;
+  text-shadow: 0 0 0.1em #333, 0 0 0.1em #333;
+}
+
+#seeMore
+{
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+
 .container_img {
     position: relative;
     width: 80%;
@@ -685,8 +701,8 @@ about
   line-height:normal;
   position: absolute;
   margin-top: 80%;
-  margin-left: 50%;
-  padding-right: 25px;
+  margin-left: 40%;
+  width: 60%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -694,64 +710,6 @@ about
 }
 
 
-/*-----------------------------------------------------------------------------------*/
-/*  Contact
-/*-----------------------------------------------------------------------------------*/
-
-#contact {
-  height: auto;
-  width: 100%;
-
-}
-
-.contact-details {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.contact-details li {
-  padding-bottom: 10px;
-}
-
-#contact input, #contact textarea {
-  width: 100%;
-}
-
-
-#contact  #sendmessage {
-  color: #18d26e;
-  border: 1px solid #18d26e;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px;
-}
-
-#contact  #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  width:inherit;
-  overflow: hidden;
-}
-
-#seeMore
-{
-  font-size: 20px;
-  padding-left: 15px;
-  color: #333333;
-}
-
-#ent_title
-{
-  color: #333333;
-  text-shadow: 2px 2px 20px #333333, 1px 1px 20px white, 1px 1px 10px #333333;
-  padding-left: 25px;
-  padding-top: 25px;
-}
 
 
 /*-----------------------------------------------------------------------------------*/
