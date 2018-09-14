@@ -370,19 +370,19 @@ about
 {
   width: 50%;
   float: left;
-  clear: both;
 }
 
 #aboutText
 {
   width: 50%;
   text-align: center;
-  float: left;
+  float: right;
   color: white;
   font-family: 'Avenir Next', helvetica;
   font-weight: lighter;
   font-size: 1.5em;
   padding: 1em;
+  clear: both;
 }
 
 #statsText
