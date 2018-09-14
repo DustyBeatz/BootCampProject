@@ -7,6 +7,11 @@
   {
     padding-right: 30px;
   }
+
+  #small_menu
+  {
+    display: none;
+  }
 }
 
 #PVintro
@@ -27,6 +32,11 @@
     padding-right: 30px;
   }
 
+  #small_menu
+  {
+    display: none;
+  }
+
   #PVintro
   {
     /*margin-left: 30px;*/
@@ -39,9 +49,34 @@
 /** Width between 768px to 991px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
+ @media (max-width:300px)
+ {
+   #main-nav
+   {
+     dislay: none;
+   }
+
+   {
+
+       dislay: none;
+
+   }
+ }
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* Navbar */
+
+  #main-nav
+  {
+    dislay: none;
+  }
+
+  #small_menu
+  {
+    display: none;
+  }
+
   nav {
     padding: 10px 15px;
   }
@@ -120,6 +155,12 @@
 
 @media (max-width: 767px) {
   /* Navbar */
+
+  #small_menu
+  {
+    display: none;
+  }
+
   nav {
     padding: 15px 15px;
   }
@@ -213,6 +254,12 @@
 
 @media (max-width: 600px) {
   /* Navbar */
+
+  #main-nav
+  {
+    display: none;
+  }
+
   nav {
     padding: 20px 15px;
   }
@@ -283,6 +330,12 @@
 
 @media (max-width: 480px) {
   /* Navbar */
+
+  #main-nav
+  {
+    display: none;
+  }
+
   nav {
     padding: 20px 15px;
   }
@@ -354,6 +407,12 @@
 
 @media (max-width: 320px) {
   /* Navbar */
+
+  #small_menu
+  {
+    display: none;
+  }
+
   nav {
     padding: 20px 15px;
   }
@@ -423,7 +482,13 @@
 
 @media (max-width: 991px)
 {
-	.music_desktop
+
+  #small_menu
+  {
+    display: none;
+  }
+
+  .music_desktop
 	{
 		display:none;
 	}
@@ -471,6 +536,17 @@
 
 @media (max-width: 399px)
 {
+
+  #main-nav
+  {
+    dislay: none;
+  }
+
+  #small_menu
+  {
+    display: block;
+  }
+
   #PVintro
   {
     font-size: 50px;
@@ -489,6 +565,12 @@
 
 @media (min-width: 400px)
 {
+
+  #small_menu
+  {
+    display: none;
+  }
+
   #PVintro
   {
     font-size: 70px;
@@ -507,6 +589,12 @@
 
 @media (min-width: 700px)
 {
+
+
+  #small_menu
+  {
+    display: none;
+  }
 
   #PVintro
   {
