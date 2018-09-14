@@ -28,7 +28,7 @@ $(document).ready(function() {
   toggleButton.addEventListener("click", togglePlay, false);
 
 
-  var vid = document.getElementById("trailer");
+  var vid = document.getElementById("video");
   function setPlaySpeed("fastForward") {
       vid.playbackRate = 2;
   }
