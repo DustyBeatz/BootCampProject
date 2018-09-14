@@ -1,7 +1,9 @@
 body {
   background: #333333;
   color: #898989;
-  font-family: 'Poppins', helvetica;
+  background: #333333;
+  color: white;
+  font-family: 'Avenir Next', helvetica;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -9,6 +11,7 @@ body {
   overflow-x: hidden;
   margin: 0 auto;
   padding: 0;
+  font-weight: lighter;
  /* -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   -o-box-sizing: border-box;
@@ -32,7 +35,7 @@ h4 {
 }
 
 a {
-  color: #292929;
+  color: #e73169;
   text-decoration: none !important;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -52,7 +55,6 @@ a:hover {
 nav ul li a {
   padding: 2px 0 0 0;
   position: relative;
-  display: block;
   font-size: 12px;
   color: #999999;
   letter-spacing: 0.1em;
@@ -106,60 +108,29 @@ img:hover {
   color: #fff;
 }
 
-.padDiv {
-  padding: 30px 20px;
-}
-
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 
 .section-title h2 {
-  font-size: 25px;
-  letter-spacing: 2px;
+  font-size: 1.8em;
+  letter-spacing: 7px;
   text-transform: uppercase;
+	color: white;
+	font-family: "Avenir Next", sans-serif, arial, helvetica;
+	font-weight: 300;
+    text-shadow: 2px 2px 20px white, 1px 1px 20px white, 1px 1px 10px white;
+	padding-bottom: 2px;
 }
 
-.form-control {
-  background-color: transparent;
-  border: 1px solid #999;
-  border-radius: 0;
-  color: #999999;
-  font-size: 12px;
-  font-weight: 500;
-  height: 50px;
-  letter-spacing: 0.1em;
-  padding-left: 10px;
-  margin: 0 0 25px 0;
-  line-height: 14px;
-  text-transform: uppercase;
+.section-title li
+{
+  margin-bottom: 20px;
 }
 
-.form-control:focus {
-  box-shadow: none;
-  outline: 0 none;
-}
-
-.paddsection {
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-
-.paddsections {
-  padding-top: 90px;
-  padding-bottom: 90px !important;
-}
-
-.hvr-shutter-in-horizontal::before {
-  background: #333;
-}
-
-.hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
-}
-
-.mb-30 {
-  margin-bottom: 30px;
+.hidden
+{
+  display: none;
 }
 
 /*  Navbar Top
@@ -173,6 +144,11 @@ nav {
 /*  display: none;*/
   -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+  padding-bottom: 20px;
+  margin:  0 auto;
+/*  display: none;*/
+  -webkit-box-shadow: 20px 20px 92px 0px rgba(0, 0, 0, 0.30);
+  -moz-box-shadow: 20px 20px 92px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
 
@@ -182,6 +158,7 @@ nav {
   padding-top: 10px;
   margin: 0 auto;
   text-align;
+  text-align: center;
 }
 
 .nav-menu ul {
@@ -192,26 +169,47 @@ nav {
   font-family: American Typewriter, Arial, monospace, helvetica;
   color: white;
 }
+.nav-menu a
+{
+	font-family: Courier, Helvetica;
+	color: white;
+	font-size: 1.1em;
+}
+
+.nav-menu a:hover
+{
+	color: gray;
+	text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+
+nav ul
+{
+  display: inline;}
 
 nav ul li {
   float: left;
-  margin-right: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: lighter;
   font-size: 14px;
-  margin-left: 40px;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 30px;
 }
 
 nav ul li a {
-  padding: 2px 0 0 0;
-  position: relative;
   display: inline;
-  font-size: 14px;
+  font-size: 2em;
   color: #999999;
-  font-family: 'Poppins', helvetica;
-  font-weight: 500;
+  font-family: 'Avenir Next', helvetica;
+  font-weight: heavy;
   line-height: 16px;
   text-transform: uppercase;
   letter-spacing: 0.02em;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -219,8 +217,8 @@ nav ul li a {
 }
 
 .logo img {
-  width: 100px;
-  height: 50px;
+  width: 150px;
+  height: auto;
 }
 
 .responsive {
@@ -243,22 +241,41 @@ nav ul li a {
 
 
 #header .header-content {
-  height: 100vh;
   text-align: left;
+<<<<<<< HEAD
   max-width: 100%;
+=======
+  width: 100%;
+  height: auto;
+>>>>>>> ee15ee39e2abf0de9c75ad16afbe9c5beba4bb35
   display: flex;
   justify-content: margin-left;
+
 }
 
 .header-content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  position:absolute;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  position:absolute;
+  animation: left_to_right ease 3s;
+
+/*=======*/
   font-size: 225px;
   font-weight: 700;
-  /*margin-top: 300px;*/
+  /*margin-top: 300px;
   /*margin-bottom: 10px;*/
   margin-top: 50px;
   line-height: 0.72;
   margin-left: 10px;
-  /*text-shadow: 1px 1px #000;*/
+  text-shadow: 1px 1px #000;
   text-transform: uppercase;
   color: #fff;
   animation: left_to_right ease 3s;
@@ -313,6 +330,7 @@ body {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   100% { border-color: orange }
+  background-image: url();
 }
 
 #typewritertext
@@ -320,15 +338,12 @@ body {
   text-align: left;
 }
 
-#header_bg
+.header_bg
 {
-	width: 100% !important;
+	width: 100%;
+  height: auto;
 }
 
-.header-content img
-{
-    width: 100%;
-}
 
 /*video*/
 #videoPlayer
@@ -340,9 +355,22 @@ body {
   overflow: hidden;
 }
 
+#PVintro
+{
+	/*margin-left: 30px;*/
+	/*text-shadow: 2px 2px 5px black;*/
+	font-weight: 700;
+	margin-top: 25px;
+	line-height: 0.72;
+  top: 130%;
+
+}
+
+
 /*Media Queries for Header*/
 
-#aboutUs
+
+about
 {
   width: 100%;
   background-image: url(images/purevolume pics/concert.jpg);
@@ -398,6 +426,7 @@ body {
   width: 50%;
 }
 
+
 .text-block {
     width: 50%;
     bottom: 20px;
@@ -411,18 +440,18 @@ body {
 }
 
 #music1 {
-  width: 100%;
-  background: #f7f7f7;
   clear:both;
 }
 
 .music-img ul {
 	list-style:none;
+	margin: 0;
 }
 
 .music-img ul li
 {
 	display:inline;
+	margin-left: 0;
 }
 
 .music-img ul li a
@@ -430,17 +459,6 @@ body {
 	display: inline;
 	float: left;
 	width: 50%;
-}
-
-#music1 .music-descr .p-heading {
-  font-size: 28px;
-  text-align: left;
-}
-
-#music1 .music-descr .separator {
-  max-width: 80%;
-  margin-bottom: 0;
-  text-align: left;
 }
 
 .img-responsive
@@ -454,62 +472,119 @@ body {
 }
 
 
-/*-----------------------------------------------------------------------------------*/
-/*  Journal
-/*-----------------------------------------------------------------------------------*/
-
-#journal,  #journal-blog {
-  height: auto;
-  width: 100%;
-  background: white;
-  padding-bottom: 60px;
-  position: relative;
-}
-
-#journal-blog {
-  background: #fff;
-  padding-bottom: 30px;
-}
-
-#journal .journal-block {
-  display: inline-block;
-  height: auto;
+.music_mobile {
+  margin-top: 20px;
   width: 100%;
 }
 
-#journal .journal-block .journal-info {
-  position: relative;
+.music-text ul {
+	list-style:none;
+	margin-top: 30%;
 }
 
-.journal-block .journal-info img {
-  max-width: 100%;
+.music-text ul li
+{
+	display:block;
+	font-size: 1.2em;
+	line-height:normal;
+	text-align: center;
+	color: white;
+  padding-right: 30px;
 }
 
-.journal-block .journal-info .journal-txt {
-  padding: 25px 0px;
-  position: relative;
+.music-text .section-title
+{
+	margin-bottom: 30px;
+	text-align: center;
 }
 
-.journal-block .journal-info .journal-txt h4 a {
+.img_overlay_container
+{
+	position: relative;
+    text-align: left;
+    color: white;
+	filter: grayscale(0%);
+}
+
+.text_overlay
+{
+	position: absolute;
+  bottom: 8px;
+  left: 16px;
+	font-weight:400;
+  font-size: 20px;
+}
+
+.img_overlay_container:hover
+{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	filter: grayscale(100%);
+}
+
+#NYFW
+{
+	color:white;
+	text-shadow: 1px #000;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Pop Culture
+/*-----------------------------------------------------------------------------------*/
+
+#popculture {
+  width: 100%;
+}
+
+#popculture h2
+{
+  margin-top: 30px;
+}
+
+.PC-img ul {
+	list-style:none;
+}
+
+.PC-img ul li
+{
+	display:inline;
+}
+
+.PC-img ul li a
+{
+	display: inline;
+	float: left;
+	width: 50%;
+}
+
+.img-responsive
+{
+  opacity: 1;
   display: block;
-  font-size: 19px;
-  line-height: 24px;
-  margin: 0 0 13px 0;
-  font-weight: 500;
-  color: #292929;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
-
-.journal-block .journal-info .journal-txt p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 24px;
+.PC-text ul {
+	list-style:none;
+	margin-top: 30%;
 }
+
+.PC-text ul li
+{
+	display:block;
+	font-size: 18px;
+	line-height:normal;
+  text-align: center;
+}
+
+.PC-text .section-title
+{
+	margin-bottom: 20px;
+}
+
 
 /*stats*/
 #statistics
@@ -564,35 +639,53 @@ body {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*  Portfolio
+/*  Entertainment
 /*-----------------------------------------------------------------------------------*/
 
-#portfolio {
+#ent {
   position: relative;
   padding-bottom: 50px;
   background-color:#f7f7f7;
 }
 
-
-#portfolio .portfolio-container {
+#ent .ent-container {
   display: inline-block;
-  margin-bottom: 50px;
   width: 100%;
 }
 
-.portfolio-thumbnail {
+.ent-thumbnail {
   margin-bottom: 30px;
   overflow: hidden;
   float: left;
 }
 
-.portfolio-thumbnail img {
+.ent-thumbnail img {
   max-width: 100%;
 }
 
-container_img {
+.ent-thumbnail .middle
+{
+	overflow:hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#ent_title
+{
+  color: #333;
+  padding: 40px 0px 0px 40px;
+  text-shadow: 0 0 0.1em #333, 0 0 0.1em #333;
+}
+
+#seeMore
+{
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+
+.container_img {
     position: relative;
-    width: 50%;
+    width: 80%;
 }
 
 .popup-img {
@@ -602,6 +695,13 @@ container_img {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  filter: grayscale(100%);
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-img:hover {
+	filter: grayscale(0%);
 }
 
 .middle {
@@ -610,16 +710,13 @@ container_img {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 15px;
-  right: 0px;
+  left: 0px;
+  right: 15px;
   height: 100%;
   width: 100%;
-  background-color: black;
+  padding-left: 15px;
 }
 
-.container_img:hover .image {
-  opacity: 0.3;
-}
 
 .container_img:hover .middle {
   opacity: 1;
@@ -627,73 +724,21 @@ container_img {
 
 .img_overlay {
   color: white;
+  text-shadow: 2px 2px 2px black;
   font-size: 20px;
+  line-height:normal;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  margin-top: 80%;
+  margin-left: 40%;
+  width: 60%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
 }
 
 
-/*-----------------------------------------------------------------------------------*/
-/*  Contact
-/*-----------------------------------------------------------------------------------*/
 
-#contact {
-  height: auto;
-  width: 100%;
-
-}
-
-.contact-details {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.contact-details li {
-  padding-bottom: 10px;
-}
-
-#contact input, #contact textarea {
-  width: 100%;
-}
-
-
-#contact  #sendmessage {
-  color: #18d26e;
-  border: 1px solid #18d26e;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px;
-}
-
-#contact  #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px;
-}
-
-#contact #sendmessage.show, #contact #errormessage.show, #contact .show {
-  display: block;
-}
-
-#contact .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
@@ -759,9 +804,18 @@ container_img {
   text-transform: uppercase;
 }
 
-#map
+
 {
   width: 100%;
+}
+
+/*About Page*/
+.aboutHeader
+{
+  width: 100%;
+  background-size: cover;
+  margin: 0 auto;
+  padding-left: 50px;
 }
 
 #trailer
