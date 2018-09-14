@@ -379,8 +379,6 @@ about
   width: 50%;
   text-align: center;
   float: right;
-<<<<<<< HEAD
-=======
   float: left;
 }
 
@@ -393,12 +391,12 @@ about
 
 #aboutText h1
 {
->>>>>>> 2a90b805eac2344c804525b0fd19318421332253
   color: white;
   font-family: 'Avenir Next', helvetica;
   font-weight: lighter;
   font-size: 1.5em;
   padding: 1em;
+  text-shadow: 0 0 0.2em #fff, 0 0 0.2em #fff;
 }
 
 #statsText
@@ -577,7 +575,7 @@ about
 /*stats*/
 #statistics
 {
-  background-color: #464646;
+  background-color: #333333;
   width: 100%;
   margin: 0 auto;
   clear: both;
@@ -587,7 +585,7 @@ about
 #statistics h1
 {
   color: white;
-  text-shadow: 0 0 0.2em #FFF, 0 0 0.2em #FFF;
+  text-shadow: 0 0 0.2em #fff, 0 0 0.2em #fff;
   letter-spacing: 4px;
   font-family: 'Avenir Next', helvetica;
   font-weight: lighter;
@@ -598,7 +596,7 @@ about
 
 #statistics h3
 {
-  color: #f2bfd3;
+  color: #e73169;
   font-family: 'Courier';
   font-size: 1.5em;
   text-align: center;
