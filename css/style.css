@@ -53,7 +53,7 @@ a:hover {
 }
 
 
-nav ul li a {
+#main-nav ul li a {
   padding: 2px 0 0 0;
   position: relative;
   font-size: 12px;
@@ -85,11 +85,9 @@ nav ul li a {
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
-  display: -inline-block;
   text-align: center;
   margin: 0 auto;
   position: relative;
-
 }
 
 p {
@@ -885,7 +883,8 @@ about
 	font-family: 'Avenir Next', cambria;
   font-weight: bold;
 	border-radius: 5%;
-	background-color: #efefef;
+	background-color: #333;
+  font-size: 30px;
 	border-bottom: thin;
 	border-bottom-color: #454545;
 	border-bottom-style:solid;
@@ -900,6 +899,58 @@ about
 }
 
 #playPause:hover
+{
+	background-color: #7C7C7C;
+	cursor: pointer;
+}
+
+#rewind
+{
+	font-family: 'Avenir Next', cambria;
+  font-weight: bold;
+	border-radius: 5%;
+	background-color: #333;
+  font-size: 30px;
+	border-bottom: thin;
+	border-bottom-color: #454545;
+	border-bottom-style:solid;
+	border-right: thin;
+	border-right-color: #454545;
+	border-right-style:solid;
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+#rewind:hover
+{
+	background-color: #7C7C7C;
+	cursor: pointer;
+}
+
+#fastForward
+{
+	font-family: 'Avenir Next', cambria;
+  font-weight: bold;
+	border-radius: 5%;
+	background-color: #333;
+  font-size: 30px;
+	border-bottom: thin;
+	border-bottom-color: #454545;
+	border-bottom-style:solid;
+	border-right: thin;
+	border-right-color: #454545;
+	border-right-style:solid;
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+#fastForward:hover
 {
 	background-color: #7C7C7C;
 	cursor: pointer;

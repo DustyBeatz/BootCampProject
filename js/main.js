@@ -4,18 +4,31 @@ $(document).ready(function() {
 
   'use strict';
 
-  // ========================================================================= //
-  //  // RESPONSIVE MENU
-  // ========================================================================= //
 
-  $('.responsive').on('click', function(e) {
-    $('.nav-menu').slideToggle();
-  });
-=======
 /*global $, jQuery, alert*/
   'use strict';
-<<<<<<< HEAD
->>>>>>> 26cb90e78227051ce044fa77d88c0542eda1116b
-=======
->>>>>>> ee15ee39e2abf0de9c75ad16afbe9c5beba4bb35
+
 >>>>>>> allicamp
+
+
+//Video
+	var playButton = document.querySelector("#playPause");
+
+
+	function togglePlay(evt) {
+ 		console.log("from togglePlay()");
+		if(video.paused){
+			video.play();
+			evt.currentTarget.innerHTML = "Pause";
+		}else{
+			video.pause();
+			evt.currentTarget.innerHTML = "Play";
+		}
+	}
+  toggleButton.addEventListener("click", togglePlay, false);
+
+
+  var vid = document.getElementById("trailer");
+  function setPlaySpeed("fastForward") {
+      vid.playbackRate = 2;
+  }
