@@ -716,11 +716,6 @@ about
   font-size: 20px;
   line-height:normal;
   position: absolute;
-<<<<<<< HEAD
-=======
-  top: 50%;
-  left: 50%;
->>>>>>> 2a90b805eac2344c804525b0fd19318421332253
   margin-top: 80%;
   margin-left: 40%;
   width: 60%;
@@ -731,66 +726,6 @@ about
 }
 
 
-<<<<<<< HEAD
-=======
-
-/*-----------------------------------------------------------------------------------*/
-/*  Contact
-/*-----------------------------------------------------------------------------------*/
-
-#contact {
-  height: auto;
-  width: 100%;
-
-}
-
-.contact-details {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.contact-details li {
-  padding-bottom: 10px;
-}
-
-#contact input, #contact textarea {
-  width: 100%;
-}
-
-
-#contact  #sendmessage {
-  color: #18d26e;
-  border: 1px solid #18d26e;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px;
-}
-
-#contact  #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px;
-}
-
-#contact #sendmessage.show, #contact #errormessage.show, #contact .show {
-  display: block;
-}
-
-#contact .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
->>>>>>> 2a90b805eac2344c804525b0fd19318421332253
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
@@ -857,10 +792,7 @@ about
 }
 
 
-<<<<<<< HEAD
-=======
 #map img
->>>>>>> 2a90b805eac2344c804525b0fd19318421332253
 {
   width: 100%;
 }
@@ -873,8 +805,6 @@ about
   margin: 0 auto;
   padding-left: 50px;
 }
-<<<<<<< HEAD
-=======
 
 #trailer
 {
@@ -950,4 +880,3 @@ about
 	background-color: #7C7C7C;
 	cursor: pointer;
 }
->>>>>>> 2a90b805eac2344c804525b0fd19318421332253
