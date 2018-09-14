@@ -12,6 +12,21 @@
   {
     display: none;
   }
+
+  #trailer_mobile
+  {
+    display: none;
+  }
+
+  #trailer_tablet
+  {
+    display: none;
+  }
+
+  #trailer
+  {
+    display: block;
+  }
 }
 
 #PVintro
@@ -44,24 +59,26 @@
     top: 70%;
     font-size: 130px;
   }
+
+  #trailer_mobile
+  {
+    display: none;
+  }
+
+  #trailer_tablet
+  {
+    display: none;
+  }
+
+  #trailer
+  {
+    display: block;
+  }
 }
 
 /** Width between 768px to 991px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
- @media (max-width:300px)
- {
-   #main-nav
-   {
-     dislay: none;
-   }
-
-   {
-
-       dislay: none;
-
-   }
- }
 
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -70,11 +87,6 @@
   #main-nav
   {
     dislay: none;
-  }
-
-.nav-menu2
-  {
-    display: none;
   }
 
   nav {
@@ -147,7 +159,21 @@
     line-height: 0.72;
     top: 130%;
   }
+  #trailer_mobile
+  {
+    display: none;
+  }
 
+  #trailer_tablet
+  {
+    display: none;
+  }
+
+  #trailer
+  {
+    display: block;
+  }
+}
 
 /** Width between 767px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -235,10 +261,22 @@
  {
 	 margin-top: 0px;
  }
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
-  }
+
+ #trailer_mobile
+ {
+   display: none;
+ }
+
+ #trailer_tablet
+ {
+   display: block;
+ }
+
+ #trailer
+ {
+   display: none;
+ }
+
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
@@ -311,16 +349,19 @@
     margin-bottom: 0;
   }
 
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
+  #trailer_mobile
+  {
+    display: none;
   }
-  /* Footer */
-  #footer .socials-media ul li {
-    margin-right: 0;
-    margin-left: 0;
-    float: none;
-    display: inline-block;
+
+  #trailer_tablet
+  {
+    display: block;
+  }
+
+  #trailer
+  {
+    display: none;
   }
 }
 
@@ -388,18 +429,20 @@
     margin-bottom: 0;
   }
 
-  /* Contact */
-  .contact-contact {
-    margin-bottom: 30px;
+  #trailer_mobile
+  {
+    display: block;
   }
-  /* Footer */
-  #footer .socials-media ul li {
-    margin-right: 0;
-    margin-left: 0;
-    float: none;
-    display: inline-block;
+
+  #trailer_tablet
+  {
+    display: none;
   }
-}
+
+  #trailer
+  {
+    display: none;
+  }
 
 /** Width between 320px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -475,6 +518,21 @@
   .entry-comments-body span {
     display: inline-block;
     margin-right: 0;
+  }
+
+  #trailer_mobile
+  {
+    display: block;
+  }
+
+  #trailer_tablet
+  {
+    display: none;
+  }
+
+  #trailer
+  {
+    display: none;
   }
 }
 
