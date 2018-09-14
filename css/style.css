@@ -241,7 +241,12 @@ nav ul li a {
 
 #header .header-content {
   text-align: left;
+<<<<<<< HEAD
   max-width: 100%;
+=======
+  width: 100%;
+  height: auto;
+>>>>>>> ee15ee39e2abf0de9c75ad16afbe9c5beba4bb35
   display: flex;
   justify-content: margin-left;
 }
@@ -258,16 +263,15 @@ nav ul li a {
 /*=======*/
   font-size: 225px;
   font-weight: 700;
-  /*margin-top: 300px;*/
+  /*margin-top: 300px;
   /*margin-bottom: 10px;*/
   margin-top: 50px;
   line-height: 0.72;
   margin-left: 10px;
-  /*text-shadow: 1px 1px #000;*/
+  text-shadow: 1px 1px #000;
   text-transform: uppercase;
   color: #fff;
   animation: left_to_right ease 3s;
-/*>>>>>>> 56b44b5904553b03b48936cdfbbe32bf357ad69a*/
 }
 
 @keyframes left_to_right {
@@ -329,6 +333,7 @@ body {
 .header_bg
 {
 	width: 100%;
+  height: auto;
 }
 
 
@@ -350,6 +355,10 @@ body {
 	font-weight: 700;
 	margin-top: 25px;
 	line-height: 0.72;
+<<<<<<< HEAD
+=======
+  top: 130%;
+>>>>>>> allicamp
 
 }
 
@@ -679,6 +688,20 @@ body {
 	overflow:hidden;
 }
 
+#ent_title
+{
+  color: #333;
+  padding: 40px 0px 0px 40px;
+  text-shadow: 0 0 0.1em #333, 0 0 0.1em #333;
+}
+
+#seeMore
+{
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+
 .container_img {
     position: relative;
     width: 50%;
@@ -724,8 +747,14 @@ body {
   font-size: 25px;
   line-height:normal;
   position: absolute;
+<<<<<<< HEAD
   top: 50%;
   left: 50%;
+=======
+  margin-top: 80%;
+  margin-left: 40%;
+  width: 60%;
+>>>>>>> allicamp
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -733,6 +762,7 @@ body {
 }
 
 
+<<<<<<< HEAD
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
 /*-----------------------------------------------------------------------------------*/
@@ -789,6 +819,8 @@ body {
   font-weight: 400;
   font-size: 13px;
 }
+=======
+>>>>>>> allicamp
 
 
 /*-----------------------------------------------------------------------------------*/
